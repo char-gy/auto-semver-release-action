@@ -1,5 +1,14 @@
 name: 'Create a Github Release'
 description: 'Create a Github Release'
+inputs:
+  release_target_comittish:
+    description: 'What commitish will be the target for your releases? Probably master.'
+    required: true
+    default: 'master'
+  semver_increment_release_type:
+    description: 'What release type is this according to semver? minor? major? Probably minor.'
+    required: true
+    default: 'minor'
 runs:
   using: 'node12'
   main: 'index.js'
