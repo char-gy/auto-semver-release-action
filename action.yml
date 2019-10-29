@@ -1,0 +1,5 @@
+name: 'Create a Github Release'
+description: 'Create a Github Release'
+runs:
+  using: 'node12'
+  main: 'index.js'
