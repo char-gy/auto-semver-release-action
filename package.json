@@ -1,5 +1,5 @@
 {
-  "name": "chargy-release-action",
+  "name": "auto-semver-release-action",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",

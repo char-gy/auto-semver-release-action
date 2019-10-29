@@ -15,7 +15,7 @@ on:
       - master
 
 jobs:
-  chargy-release-action:
+  auto-semver-release-action:
 
     runs-on: ubuntu-latest
 
@@ -40,7 +40,7 @@ on:
       - master
 
 jobs:
-  chargy-release-action:
+  auto-semver-release-action:
 
     runs-on: ubuntu-latest
 
